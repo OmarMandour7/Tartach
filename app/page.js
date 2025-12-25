@@ -40,9 +40,11 @@ export default function Page() {
                     </div>
 
                     <div className="mt-3 flex items-center justify-center gap-2">
-                        <FaLeaf className="text-2xl text-tartash-green animate-bounce" />
-                        <p className="text-xl font-semibold text-tartash-cream drop-shadow-sm"> Fresh Tropical Juice Menu </p>
                         <FaLemon className="text-2xl text-tartash-yellow animate-bounce" />
+
+                        <p className="text-xl font-semibold text-tartash-cream drop-shadow-sm"> Fresh Tropical Juice Menu </p>
+                        <FaLeaf className="text-2xl text-tartash-green animate-bounce" />
+
                     </div>
                 </header>
 
