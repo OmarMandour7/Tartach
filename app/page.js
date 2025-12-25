@@ -90,9 +90,7 @@ export default function Page() {
 
                     </div>
 
-                    <div className="text-center text-sm font-semibold text-tartash-dark">
-                        © {new Date().getFullYear()} Tartash Juice 🍊 جميع الحقوق محفوظة
-                    </div>
+
                 </footer>
             </div>
         </div>
