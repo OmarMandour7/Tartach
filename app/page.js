@@ -48,12 +48,18 @@ export default function Page() {
                     </div>
                 </header>
 
-                {/* Menu Images */}
-                <main className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
-                    <div className="group transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">
+                <main className="flex flex-col items-center justify-center gap-6 py-10">
+
+                    {/* Title */}
+                    <h1 className="text-5xl font-extrabold text-white text-center mb-6 drop-shadow-lg">
+                      Welcome in District N Bazar
+                    </h1>
+
+                    {/* Image */}
+                    <div className="group max-w-2xl transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">
                         <div className="border-8 border-tartash-yellow rounded-3xl overflow-hidden">
                             <Image
-                                src="/1.jpg"
+                                src="/baz.jpeg"
                                 alt="Menu page 1"
                                 width={1400}
                                 height={2000}
@@ -63,19 +69,34 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="group transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">
-                        <div className="border-8 border-tartash-yellow/60 rounded-3xl overflow-hidden">
-                            <Image
-                                src="/2.jpg"
-                                alt="Menu page 2"
-                                width={1400}
-                                height={2000}
-                                className="h-auto w-full"
-                            />
-                        </div>
-                    </div>
                 </main>
+                {/*<main className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">*/}
 
+                {/*    <div className="group transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">*/}
+                {/*        <div className="border-8 border-tartash-yellow rounded-3xl overflow-hidden">*/}
+                {/*            <Image*/}
+                {/*                src="/1.jpg"*/}
+                {/*                alt="Menu page 1"*/}
+                {/*                width={1400}*/}
+                {/*                height={2000}*/}
+                {/*                className="h-auto w-full"*/}
+                {/*                priority*/}
+                {/*            />*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+                {/*    <div className="group transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">*/}
+                {/*        <div className="border-8 border-tartash-yellow/60 rounded-3xl overflow-hidden">*/}
+                {/*            <Image*/}
+                {/*                src="/2.jpg"*/}
+                {/*                alt="Menu page 2"*/}
+                {/*                width={1400}*/}
+                {/*                height={2000}*/}
+                {/*                className="h-auto w-full"*/}
+                {/*            />*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</main>*/}
                 {/* Footer */}
                 <footer className="my-8 rounded-3xl bg-tartash-cream/90 backdrop-blur-sm px-6 py-6 shadow-xl">
                     <div className="mb-4 flex items-center justify-center gap-3">
