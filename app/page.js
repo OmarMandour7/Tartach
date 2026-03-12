@@ -52,14 +52,14 @@ export default function Page() {
 
                     {/* Title */}
                     <h1 className="text-5xl font-extrabold text-white text-center mb-6 drop-shadow-lg">
-                      Welcome in District N Bazar
+                      Welcome in S N Market
                     </h1>
 
                     {/* Image */}
                     <div className="group max-w-2xl transform overflow-hidden rounded-3xl bg-tartash-cream shadow-2xl transition hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(242,193,45,0.4)]">
                         <div className="border-8 border-tartash-yellow rounded-3xl overflow-hidden">
                             <Image
-                                src="/baz.jpeg"
+                                src="/SN.jpeg"
                                 alt="Menu page 1"
                                 width={1400}
                                 height={2000}
